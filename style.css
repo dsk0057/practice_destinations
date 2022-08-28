@@ -6,11 +6,14 @@
     margin: 5px auto 5px;
 }
 
+form {
+    width: 40%;
+}
+
 .form-box {
     border: 5px solid red;
     height: 500px;
-    padding: 10px 0px 150px 100px;
-    width: 40%;
+    padding: 10px 0px 150px 280px;
     margin: 0 20px 0 0;
 }
 
@@ -49,9 +52,9 @@
 }
 
   @media screen and (max-width: 600px) {
-    .col-25, .col-75 {
-      width: 100%;
-      margin-top: 0;
+    .form-box {
+      flex-direction: column;
+      justify-content: center;
     }
 
   }
