@@ -1,0 +1,38 @@
+
+.box {
+    border: 5px solid rgb(50, 228, 50);
+    width: 100%;
+    padding: 10px;
+    margin: 5px auto 5px;
+}
+
+.form-box {
+    border: 5px solid red;
+    height: 500px;
+    padding: 10px 0px 150px 100px;
+    width: 40%;
+}
+
+.form-control {
+    width: auto;
+}
+
+.card-box {
+        border: 5px solid blue;
+        height: 500px;
+        width: 40%;
+}
+
+.card-heading-box {
+    border: 5px solid rgb(194, 56, 194);
+    margin: 3px 6px 10px;
+    padding: 0px 0px 10px 10px;
+}
+
+.card-container-box {
+    border: 8px solid rgba(255, 255, 0, 0.808);
+    height:83%;
+    margin: 3px 6px 0px;
+}
+
+
